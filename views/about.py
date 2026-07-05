@@ -15,6 +15,13 @@ def show_about():
     ### Dataset
 
     Pima Indians Diabetes Dataset
+    
+    ### Data Preprocessing
+    - Checked for missing values
+    - Identified medically impossible zero values
+    - Replaced invalid zeros with missing values (NaN)
+    - Imputed missing values using the median
+    - Standardized features using StandardScaler
 
     ### Machine Learning Models
 
