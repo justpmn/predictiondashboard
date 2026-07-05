@@ -66,10 +66,9 @@ def show_home():
 
     st.divider()
 
-    # -----------------------------
+    
     # Project Objective
-    # -----------------------------
-    st.subheader("🎯 Project Objective")
+    st.subheader("Project Objective")
 
     st.write("""
     The objective of this project is to develop a machine learning model
@@ -129,5 +128,5 @@ def show_home():
     st.divider()
 
     st.caption(
-        "Developed for the Machine Learning Group Project."
+        "Developed for the Machine Learning Group 2 Project."
     )
