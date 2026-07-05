@@ -14,6 +14,13 @@ def show_dataset():
     """)
 
     st.divider()
+    
+    st.info("""
+        The dataset originally contained no explicit missing (NaN) values.
+        However, medically impossible zero values in Glucose, Blood Pressure,
+        Skin Thickness, Insulin and BMI were treated as missing values and
+        replaced using median imputation before model training.
+        """)
 
     # Dataset overview
     col1, col2 = st.columns(2)
