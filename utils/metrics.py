@@ -11,35 +11,40 @@ def get_model_metrics():
             "Logistic Regression",
             "Decision Tree",
             "Random Forest",
+            "Random Forest (Tuned)",
             "Support Vector Machine"
         ],
 
         "Accuracy": [
             0.753,
-            0.747,
-            0.721,
-            0.734
+            0.714,
+            0.734,
+            0.760,
+            0.747
         ],
 
         "Precision": [
-            0.649,
+            0.667,
+            0.596,
             0.625,
-            0.607,
-            0.646
+            0.661,
+            0.667
         ],
 
         "Recall": [
-            0.673,
-            0.727,
             0.618,
-            0.564
+            0.618,
+            0.636,
+            0.673,
+            0.582
         ],
 
         "F1 Score": [
-            0.661,
-            0.672,
-            0.613,
-            0.602
+            0.642,
+            0.607,
+            0.631,
+            0.667,
+            0.621
         ]
     })
 
@@ -68,7 +73,7 @@ def get_summary_metrics():
     return {
         "Patients": 768,
         "Features": 8,
-        "Models": 4,
+        "Models": 5,
         "Best Model": best["Model"],
         "Best Accuracy": f"{best['Accuracy']*100:.2f}%"
     }
