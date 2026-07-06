@@ -109,13 +109,13 @@ def show_prediction():
         if prediction == 1:
 
             st.error(
-                f"⚠️ Patient is likely diabetic.\n\nConfidence: {confidence:.2f}%"
+                f"Patient is likely diabetic.\n\nConfidence: {confidence:.2f}%"
             )
 
         else:
 
             st.success(
-                f"✅ Patient is likely non-diabetic.\n\nConfidence: {confidence:.2f}%"
+                f"Patient is likely non-diabetic.\n\nConfidence: {confidence:.2f}%"
             )
 
         st.divider()
