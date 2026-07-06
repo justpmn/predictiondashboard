@@ -138,7 +138,26 @@ DiabetesDashboard/
 │
 └── README.md
 ```
+## Jupyter Notebook
 
+The complete machine learning workflow is documented in the notebook below:
+
+- **[Group2Project(2).ipynb](Group2Project(2).ipynb)**
+
+The notebook includes:
+
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature scaling
+- Model training
+- Model evaluation
+- Model export using Joblib
+---
+### Open in Google Colab
+
+You can run the notebook directly in Google Colab:
+
+[Open Group2Project(2).ipynb in Google Colab](https://colab.research.google.com/drive/10mLf13xXeDsW5i1Hm0WicbMZ50hf2hRi?usp=sharing)
 ---
 
 ##  Installation
