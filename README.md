@@ -116,6 +116,7 @@ The Streamlit dashboard includes:
 ```text
 DiabetesDashboard/
 │
+├── Group2Project.ipynb
 ├── app.py
 ├── requirements.txt
 ├── diabetes.csv
@@ -142,7 +143,7 @@ DiabetesDashboard/
 
 The complete machine learning workflow is documented in the notebook below:
 
-- **[Group2Project(2).ipynb](Group2Project(2).ipynb)**
+- **[Group2Project.ipynb](Group2Project.ipynb)**
 
 The notebook includes:
 
@@ -157,7 +158,7 @@ The notebook includes:
 
 You can run the notebook directly in Google Colab:
 
-[Open Group2Project(2).ipynb in Google Colab](https://colab.research.google.com/drive/10mLf13xXeDsW5i1Hm0WicbMZ50hf2hRi?usp=sharing)
+[Open Group2Project.ipynb in Google Colab](https://colab.research.google.com/drive/10mLf13xXeDsW5i1Hm0WicbMZ50hf2hRi?usp=sharing)
 ---
 
 ##  Installation
